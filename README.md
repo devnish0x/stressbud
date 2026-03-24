@@ -1,4 +1,4 @@
-# stressbud
+# stressbuddd
 
 ##how to run steps :
 0. python -m venv .venv -> then activate virtual environment
