@@ -109,7 +109,7 @@ Frontend runs at → `http://localhost:8501`
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -117,7 +117,7 @@ Frontend runs at → `http://localhost:8501`
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -151,7 +151,7 @@ Frontend runs at → `http://localhost:8501`
 
 ---
 
-## 🧠 Stress Categories
+##  Stress Categories
 
 | Category | Trigger Keywords | System Prompt |
 |---|---|---|
@@ -162,45 +162,13 @@ Frontend runs at → `http://localhost:8501`
 
 ---
 
-## 🆘 Crisis Helplines (India)
 
-| Helpline | Number | Hours |
-|---|---|---|
-| iCall | 9152987821 | Mon–Sat, 9am–9pm |
-| Vandrevala Foundation | 1860-2662-345 | 24/7 |
-| AASRA | 9820466726 | 24/7 |
-| Emergency | 112 | 24/7 |
-
----
-
-## ☁️ Deployment
-
-### Backend → Render
-
-1. Push code to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect your GitHub repo
-4. Set **Root Directory** to `backend`
-5. Set **Start Command** to `uvicorn main:app --host 0.0.0.0 --port $PORT`
-6. Add environment variable: `GEMINI_API_KEY=your_key`
-7. Deploy
-
-### Frontend → Streamlit Cloud
-
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Connect your GitHub repo
-3. Set **Main file path** to `frontend/app.py`
-4. Update `BACKEND_URL` in `app.py` to your Render backend URL
-5. Deploy
-
----
-
-## ⚠️ Disclaimer
+##  Disclaimer
 
 StressBud is an AI companion and is **not a substitute for professional mental health support**. If you or someone you know is in crisis, please contact a helpline immediately.
 
 ---
 
-## 👥 Team
+##  Team
 
-Built with 💙 for students, by students — during a hackathon.
+Built for students, by students — during a hackathon.
