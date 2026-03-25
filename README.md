@@ -87,7 +87,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 Start the backend:
 
 ```bash
-uvicorn main:app --reload
+ python -m uvicorn backend.main:app --reload
 ```
 
 Backend runs at → `http://127.0.0.1:8000`
